@@ -1,5 +1,5 @@
-h1 {
-
-color: red;
-font-family: 'Arima Madurai', cursive;
+:root {
+    h1 {
+        font-family: 'Arima Madura', cursive;
+    }
 }
