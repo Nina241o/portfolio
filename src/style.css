@@ -1,12 +1,114 @@
 :root {
   --primary-font-family: "Arima Madurai", cursive;
   --secondary-font-family: "Raleway", sans-serif;
+  --primary-color: #ea1953;
+  --secondary-color: #ffffff;
+  --accent-color: #495057;
 }
 
 h1 {
   font-family: var(--primary-font-family);
+  margin-top: 40px;
+  padding: 0 !important;
+  color: var(--accent-color);
+}
+
+h4 {
+  font-family: var(--secondary-font-family);
+  color: var(--accent-color);
+}
+
+ul {
+  margin-top: 15px;
+  margin-bottom: 200px;
+  list-style: none;
+  padding: 0;
+  font-family: var(--secondary-font-family);
+}
+
+li {
+  margin: 0;
+  padding: 5px 0;
 }
 
 p {
+  font-family: var(--primary-font-family);
+}
+
+.col-sm-2 {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.hero-leftside {
+  font-weight: 700;
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.small-img {
+  display: block;
+}
+
+.trainings {
+  font-size: 12px;
+}
+
+.social-media {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+
+}
+
+.fa-xing {
+  background: var(--primary-color);
+  margin-bottom: 200px;
+}
+
+.fa-instagram,
+.fa-xing {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.instagram,
+.xing {
   font-family: var(--secondary-font-family);
+  font-size: 12px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.bg {
+  background: url(/images/part-of-me.png);
+  background-repeat: no-repeat;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.container div {
+  height: 600px;
+  background-size: cover;
+}
+
+.navigation-links,
+.btn-portfolio,
+.btn-contact {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-portfolio {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-contact {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
