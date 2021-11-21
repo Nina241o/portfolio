@@ -8,9 +8,8 @@
 
 h1 {
   font-family: var(--primary-font-family);
-  margin-top: 40px;
-  padding: 0 !important;
   color: var(--accent-color);
+  margin-top: 150px;
 }
 
 h4 {
@@ -18,9 +17,13 @@ h4 {
   color: var(--accent-color);
 }
 
+h5 {
+  font-family: var(--primary-font-family) !important;
+}
+
 ul {
   margin-top: 15px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   list-style: none;
   padding: 0;
   font-family: var(--secondary-font-family);
@@ -32,7 +35,7 @@ li {
 }
 
 p {
-  font-family: var(--primary-font-family);
+  font-family: var(--secondary-font-family);
 }
 
 .col-sm-2 {
@@ -40,16 +43,19 @@ p {
   color: var(--secondary-color);
 }
 
+.small-img {
+  margin: 0 auto;
+  display: block;
+  padding: none;
+  border: 7px solid #fff;
+}
+
 .hero-leftside {
   font-weight: 700;
   font-family: var(--primary-font-family);
   color: var(--secondary-color);
   text-align: center;
-  margin-top: 40px;
-}
-
-.small-img {
-  display: block;
+  margin-top: 30px;
 }
 
 .trainings {
@@ -59,12 +65,11 @@ p {
 .social-media {
   font-family: var(--primary-font-family);
   font-weight: 700;
-
 }
 
 .fa-xing {
   background: var(--primary-color);
-  margin-bottom: 200px;
+  margin-bottom: 320px;
 }
 
 .fa-instagram,
@@ -79,27 +84,25 @@ p {
   font-size: 12px;
   padding-top: 15px;
   text-align: center;
-}
+  }
 
-.bg {
-  background: url(/images/part-of-me.png);
+.bg-img {
+  background: url("/images/me.png");
   background-repeat: no-repeat;
-}
-
-.img {
-  object-fit: cover;
-}
-
-.container div {
-  height: 600px;
-  background-size: cover;
+  background-position: fixed;
 }
 
 .navigation-links,
 .btn-portfolio,
 .btn-contact {
+  font-family: var(--secondary-font-family);
   background: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.btn-portfolio:hover,
+.btn-contact:hover {
+  cursor: pointer;
 }
 
 .btn-portfolio {
@@ -111,4 +114,27 @@ p {
   background: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.links-in-string {
+  color: var(--primary-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  
+}
+
+.links-in-string:hover {
+  font-family: var(--primary-font-family);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-2 {
+  margin-bottom: 30px;
 }
