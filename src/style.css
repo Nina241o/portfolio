@@ -6,7 +6,6 @@
   --accent-color: #495057;
 }
 
-
 h1 {
   font-family: var(--secondary-font-family);
   color: var(--accent-color);
@@ -38,9 +37,9 @@ h4 {
   font-size: 24px;
 }
 
-@media (max-width: 780px)  {
+@media (max-width: 780px) {
   h4 {
-   font-size: 16px;
+    font-size: 16px;
   }
 }
 
@@ -111,7 +110,7 @@ p {
 
 .social-media {
   font-family: var(--primary-font-family);
-  }
+}
 
 @media (max-width: 780px) {
   .social-media {
@@ -126,14 +125,14 @@ p {
 
 .fa-instagram,
 .fa-xing {
-   text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 780px) {
   .fa-instagram,
   .fa-xing {
     font-size: 12px;
-    }
+  }
 }
 
 .instagram-link,
@@ -145,7 +144,7 @@ p {
   text-align: center;
 }
 
-.instagram-link:hover ,
+.instagram-link:hover,
 .xing-link:hover {
   cursor: pointer;
   transition: 200ms ease-in-out;
@@ -176,8 +175,8 @@ p {
 }
 
 @media (max-width: 780px) {
-.and-more {
-  display: none;
+  .and-more {
+    display: none;
   }
 }
 
@@ -280,8 +279,8 @@ p {
 }
 
 @media (max-width: 780px) {
-.coded {
-  font-size: 10px;
+  .coded {
+    font-size: 10px;
   }
 }
 
@@ -349,4 +348,44 @@ p {
     -webkit-column-count: 1;
     column-count: 1;
   }
+}
+
+.contact-section .fa-instagram,
+.contact-section .fa-xing,
+.contact-section .fa-envelope-square {
+  color: var(--accent-color);
+  opacity: 0.9;
+}
+
+.contact-section .fa-xing {
+  background: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.instagram-link-contact,
+.xing-link-contact,
+.envelope-link-contact {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.instagram-link-contact:hover,
+.xing-link-contact:hover,
+.envelope-link-contact:hover {
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  text-decoration: underline;
+  color: var(--accent-color) !important;
+}
+
+.instagram-link-contact:visited,
+.xing-link-contact:visited,
+.envelope-link-contact:visited {
+  text-decoration: none;
+  font-family: var(--seconary-font-family);
+  font-size: 18px;
+  text-align: center;
 }
