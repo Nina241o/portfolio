@@ -6,6 +6,10 @@
   --accent-color: #495057;
 }
 
+body {
+  font-family: var(--secondary-font-family);
+}
+
 h1 {
   font-family: var(--secondary-font-family);
   color: var(--accent-color);
@@ -350,11 +354,19 @@ p {
   }
 }
 
+@media (max-width: 768px) {
+  .contact-content {
+    font-size: 12px;
+  }
+}
+
+
 .contact-section .fa-instagram,
 .contact-section .fa-xing,
 .contact-section .fa-envelope-square {
   color: var(--accent-color);
   opacity: 0.9;
+  
 }
 
 .contact-section .fa-xing {
@@ -370,6 +382,15 @@ p {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+.instagram-link-contact,
+.xing-link-contact,
+.envelope-link-contact {
+  font-size: 14px;
+ 
+}
 }
 
 .instagram-link-contact:hover,
@@ -388,4 +409,12 @@ p {
   font-family: var(--seconary-font-family);
   font-size: 18px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contact-section .btn-about,
+  .contact-section .btn-projects {
+    margin-bottom: 4px;
+  }
+
 }
