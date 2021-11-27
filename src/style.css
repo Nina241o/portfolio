@@ -169,24 +169,22 @@ p {
   }
 }
 
-.fa-xing {
-  background: var(--primary-color);
-  margin-bottom: 320px;
-}
-
 .fa-instagram,
+.fa-github,
 .fa-xing {
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .fa-instagram,
+  .fa-github,
   .fa-xing {
     font-size: 12px;
   }
 }
 
 .instagram-link,
+.github-link,
 .xing-link {
   color: var(--secondary-color);
   text-decoration: none;
@@ -196,12 +194,14 @@ p {
 }
 
 .instagram-link:hover,
+.github-link:hover,
 .xing-link:hover {
   cursor: pointer;
-  transition: 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .instagram-link:visited,
+.github-link:visited,
 .xing-link:visited {
   color: var(--secondary-color);
   text-decoration: none;
@@ -408,6 +408,7 @@ p {
 }
 
 .contact-section .fa-instagram,
+.contact-section .fa-github,
 .contact-section .fa-xing,
 .contact-section .fa-envelope-square {
   color: var(--accent-color);
@@ -420,6 +421,7 @@ p {
 }
 
 .instagram-link-contact,
+.github-link-contact,
 .xing-link-contact,
 .envelope-link-contact {
   color: var(--primary-color);
@@ -431,6 +433,7 @@ p {
 
 @media (max-width: 768px) {
   .instagram-link-contact,
+  .github-link-contact,
   .xing-link-contact,
   .envelope-link-contact {
     font-size: 14px;
@@ -438,6 +441,7 @@ p {
 }
 
 .instagram-link-contact:hover,
+.github-link-contact:hover,
 .xing-link-contact:hover,
 .envelope-link-contact:hover {
   cursor: pointer;
@@ -447,6 +451,7 @@ p {
 }
 
 .instagram-link-contact:visited,
+.github-link-contact:visited,
 .xing-link-contact:visited,
 .envelope-link-contact:visited {
   text-decoration: none;
