@@ -440,8 +440,7 @@ p {
   -moz-column-gap: 4px;
   column-count: 4;
   column-gap: 4px;
-  background: var(--primary-color);
-  border: 4px solid var(--primary-color);
+  background: var(--secondary-color);
   border-radius: 5px;
 }
 
